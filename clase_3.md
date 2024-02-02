@@ -5,7 +5,7 @@ Maestro dirige los recurso hacia los workers
 Existen dos replicas de los maestros(m1, m2, m3)
 - M1 Standby
 - M2 Activo
-- M3 Secundario Esta pendiente a caidas de los otros dos y toma ese lugar y actualiza los metadatos que estan en la RAM
+- M3 Secundario Esta pendiente a caidas de los otros dos y toma ese lugar y actualiza(no modifica) los metadatos que estan en la RAM
  Hay al menos 6 nodos workers
 La informacion viaja hacia
 Los datos no se mueven, se mueven los programas. Esto es para agilizar y no depender de la latencia(lo que haria un cuello de botella)
@@ -17,3 +17,9 @@ Esto es ineficiente porque el cabezal se mueve de esquina a esquina y se tarda e
 Un grupo de bloques se llama cluster o agrupaciones. 
 Cuando escribo en un disco duro, me interesa tener bloques pequeños para no desperdiciar espacio. En big data no.
 Cuando hacemos una particiones, los metadatos estan en la RAM, no en el disco.
+Por defecto, los archivos se replican 3 veces, pero se puede cambiar.
+# Uso de Hadoop
+Se utiliza para la lectura de grandes volumenes de datos.
+fsimage contiene todos los metadatos guardados en los nodos esclavos
+Cuando yo subo mis datos estos se guardan en los discos duros 
+Todos los archivos se guardan en los discos duros de los esclavos
