@@ -23,3 +23,9 @@ Se utiliza para la lectura de grandes volumenes de datos.
 fsimage contiene todos los metadatos guardados en los nodos esclavos
 Cuando yo subo mis datos estos se guardan en los discos duros 
 Todos los archivos se guardan en los discos duros de los esclavos
+# lectura de datos
+Spark
+Si el archivo no cabe en la RAM, mueve los datos a la memoria del disco duro y esta parte donde la guarda se llama en espacio de memoria virtual 
+Pagesys
+Swap
+HADOOP mueve el programa a las direcciones de memoria
