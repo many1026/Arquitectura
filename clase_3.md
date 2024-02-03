@@ -42,3 +42,13 @@ HADOOP tiene HDFS Y YARN
 Esto usaba MAP REDUCE, es deir, aplicar una funcion a todos los datos. Se abandono este paradigma porque usaba intensivamente el disco y no aprovehcaba la RAM a diferencia de spark.
 Spark mueve de RAM a RAM, no utiliza el disco.
 
+
+
+# YARN Optimiza el uso de los recursos
+Gestiona recursos y administra cuando los nodos esclavos mandan info
+Cada nodo que se ejecuta en un proceso, se ejecuta en un contenedor
+Ejecucion perezoso en una tabla: 
+Si quiero hacer un group by esta puede esperar hasta que el grafo de ejecucion se vea obligado, y esto logra una optimizacion.
+Ver diagrama de como es la secuencia de trabajo en YARN.
+Zookeeper: Es el nodo que se encarga de 
+
