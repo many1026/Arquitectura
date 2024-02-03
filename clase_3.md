@@ -29,3 +29,16 @@ Si el archivo no cabe en la RAM, mueve los datos a la memoria del disco duro y e
 Pagesys
 Swap
 HADOOP mueve el programa a las direcciones de memoria
+# PARQUET VS CSV
+- Parquet: Texto comprimido, siempre son mas chicos, ya tienen tipo y no necesitas definir schema, 
+- CSV: Texto, no tiene tipos(se lee todo string), tienes que definir schema,
+  En spark TODAS LAS TABLAS SON INMUTABLES
+
+Spark en escala es solo para spark: saber bien pyspark es facil hacer el salto a escala
+
+
+# Hadoop o spark
+HADOOP tiene HDFS Y YARN 
+Esto usaba MAP REDUCE, es deir, aplicar una funcion a todos los datos. Se abandono este paradigma porque usaba intensivamente el disco y no aprovehcaba la RAM a diferencia de spark.
+Spark mueve de RAM a RAM, no utiliza el disco.
+
