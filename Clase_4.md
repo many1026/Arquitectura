@@ -13,3 +13,6 @@ sPARK usa el DAG y trata de optimizar los shuffle
 
 Disco mecanico vs disco solido
 Disco mecanico(duro) es muy lento y disco solido es rapido.
+
+Kubernetics(Orquestador de dockers)
+Dockers: Paquetes de maquina virtuales
