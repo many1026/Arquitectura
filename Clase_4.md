@@ -24,3 +24,7 @@ Cada vez se esta dejando de utiizar YARN. Porque YARN se ha logrado optimizar
 
 RDD es un mini data lake, es un bucket de spark.
 un data lake organizado en bases de datos tengo un data warehouse.
+
+Si voy a usar spark para procesamiento de audio e imagenes tengo que utilizar RDD.
+Como Son inmutables(read only) somos infecientes en disco.
+Tenemos prioridad en el tiempo de ejecución y preferimos ser ineficientes en disco.
