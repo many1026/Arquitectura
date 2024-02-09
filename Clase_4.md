@@ -16,3 +16,11 @@ Disco mecanico(duro) es muy lento y disco solido es rapido.
 
 Kubernetics(Orquestador de dockers)
 Dockers: Paquetes de maquina virtuales
+
+
+### Apache Spark (HDFS Y YARN):
+Cada vez se esta dejando de utiizar YARN. Porque YARN se ha logrado optimizar
+
+
+RDD es un mini data lake, es un bucket de spark.
+un data lake organizado en bases de datos tengo un data warehouse.
